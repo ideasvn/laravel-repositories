@@ -1,0 +1,26 @@
+{
+  "name": "ideasvn/repository",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nguyen Tuan Sieu",
+      "email": "ideasvn@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ideasvn\\Repositories\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+//  "minimum-stability": "stable",
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
